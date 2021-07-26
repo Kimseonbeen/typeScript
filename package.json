@@ -1,0 +1,7 @@
+{
+  "name": "typeScript",
+  "version": "1.0.0",
+  "description": "TypeScript",
+  "main": "index.js",
+  "license": "MIT"
+}
