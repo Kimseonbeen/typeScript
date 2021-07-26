@@ -1,7 +1,26 @@
 {
-  "name": "typeScript",
+  "name": "typescript",
   "version": "1.0.0",
   "description": "TypeScript",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimseonbeen/typeScript.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Kimseonbeen/typeScript/issues"
+  },
+  "homepage": "https://github.com/Kimseonbeen/typeScript#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
 }
