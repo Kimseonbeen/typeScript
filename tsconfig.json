@@ -2,8 +2,9 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "ES2015",
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "dist"    // 모든 컴파일 된 것을 dist로 들어감
     },
-    "include": ["index.ts"],
+    "include": ["src/**/*"],    // 내 모든 typescript는 src로 들어감
     "exclude": ["node_modules"]
 }
